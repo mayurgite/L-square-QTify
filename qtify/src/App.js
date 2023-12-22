@@ -1,12 +1,12 @@
 import React from "react";
-import Button from "./components/Button/Button";
-import Search from "./components/Search/Search";
-
+import Navbar from "./components/Navbar/Navbar";
+//import Hero from "./components/Hero/Hero";
 function App() {
   return (
     <>
-    <Search placeholder={"Search a album of your choice"}/>
-    </>
+    <Navbar SearchData={""}/>
+    
+  </>
   );
 }
 
